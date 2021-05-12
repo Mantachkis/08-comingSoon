@@ -8,14 +8,14 @@
     display: inline-block;
     width: 600px;
     margin-left: calc(50% - 300px);
-    background-color: yellow;
+   
   }
   
   .container > .row-big {
     display: inline-block;
     width: 1000px;
     margin-left: calc(50% - 500px);
-    background-color: yellow;
+
   }
   
   .container .left-column {
