@@ -1,0 +1,23 @@
+{
+  "name": "08-coming-soon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mantachkis/08-comingSoon.git"
+  },
+  "author": " Mantas Garliauskas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mantachkis/08-comingSoon/issues"
+  },
+  "homepage": "https://github.com/Mantachkis/08-comingSoon#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
