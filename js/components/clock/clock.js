@@ -28,9 +28,13 @@ const allValueDOM = DOM.querySelectorAll('.value');
 
 
 
-//setInterval();
+setInterval(function() {
+    
+    updateClock(allValueDOM, calcDeadline(targetDate));
 
-updateClock(allValueDOM, calcDeadline(targetDate));
+}, 1000);
+
+
 
 }
 
