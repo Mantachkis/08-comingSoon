@@ -1,7 +1,7 @@
 import{formatNumber} from './formatNumber.js'
-
-
-function renderClock(selector){
+import{calcDeadline} from'./calcDeadline.js'
+import{updateClock} from './updateClock.js'
+function renderClock(selector, targetDate){
     //validacija
 
 
@@ -9,7 +9,7 @@ function renderClock(selector){
 
     const DOM = document.querySelector(selector);
     
-    const time = [432, 9, 37, 39];
+    const time = calcDeadline(targetDate);
     const titles= ['days', 'hours', 'minutes', 'seconds']
     let HTML='';
 
@@ -24,9 +24,13 @@ function renderClock(selector){
 
 DOM.innerHTML = HTML;
 
+const allValueDOM = DOM.querySelectorAll('.value');
 
 
 
+//setInterval();
+
+updateClock(allValueDOM, calcDeadline(targetDate));
 
 }
 
