@@ -30,9 +30,7 @@ const allValueDOM = DOM.querySelectorAll('.value');
 
 setInterval(function() {
 
-    updateClock(allValueDOM, calcDeadline(targetDate));
-
-}, 1000);
+    updateClock(allValueDOM, calcDeadline(targetDate));}, 100);
 
 
 
