@@ -3,6 +3,10 @@
 @import './basic/variables.css';
 @import './basic/layout.css';
 
+/* 3rd-parties */
+
+@import './3rd-party/font-awesome.min.css';
+
 /* component styles */
 @import './components/button.css';
 @import './components/clock.css';
@@ -71,4 +75,35 @@ main p a{
 
 footer.container {
   padding-top: 0;
+}
+
+/* footer*/
+
+footer.container{
+  padding-top: 0;
+
+}
+.container .socials {
+display: flex;
+padding:20px;
+justify-content: center;
+flex-wrap: wrap;
+border-bottom: 1px solid white;
+}
+
+.socials > .fa{
+  display: inline-block;
+  width: 44;
+  height: 44;
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-light);
+  line-height: 40px;
+  text-decoration: none;
+  transition: all 0.3s;
+
+}
+.socials > .fa:hover{
+  background-color: var(--color-primary);
+  color: var(--color-light)
 }
