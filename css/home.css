@@ -73,38 +73,39 @@ main p a{
   color: var(--color-secondary);
   text-decoration: none;
 }
-
+.progress-bar:nth-of-type(2) > .bottom > .progress{
+  width: 86%;
+}
 footer.container {
   padding-top: 0;
 }
 
-/* footer*/
-
-footer.container{
+/* FOOTER */
+footer.container {
   padding-top: 0;
-
 }
+
 .container .socials {
-display: flex;
-padding:20px;
-justify-content: center;
-flex-wrap: wrap;
-border-bottom: 1px solid white;
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-bottom: 1px solid #fff;
 }
-
-.socials > .fa{
+.socials > .fa {
   display: inline-block;
-  width: 44;
-  height: 44;
-  border-radius: 50%;
-  text-align: center;
+  width: 44px;
+  height: 44px;
   color: var(--color-light);
-  line-height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 44px;
   text-decoration: none;
   transition: all 0.3s;
-
 }
-.socials > .fa:hover{
-  background-color: var(--color-primary);
-  color: var(--color-light)
+.socials > .fa:hover {
+  background-color: var(--color-light);
+  color: var(--color-primary);
 }
