@@ -18,7 +18,7 @@ function socials(selector, data){
     // }
 
     //result return
-    DOM.innerHTML = HTML;
+    DOM.innerHTML += HTML;
 
 }
 
