@@ -1,10 +1,41 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Mantachkis 
+front-end-by-rimantas
+/
+27-grupe-coming-soon
+1
+03
+Code
+Issues
+4
+Pull requests
+Actions
+Projects
+1
+Wiki
+Security
+Insights
+27-grupe-coming-soon/css/home.css
+@belauzas
+belauzas Bact to top, favicon #11 #14
+Latest commit 70bf0c2 2 hours ago
+ History
+ 1 contributor
+119 lines (105 sloc)  2.06 KB
+  
 /* basic/initial styles */
 @import './basic/reset.css';
 @import './basic/variables.css';
 @import './basic/layout.css';
 
-/* 3rd-parties */
-
+/* 3rd-party */
 @import './3rd-party/font-awesome.min.css';
 
 /* component styles */
@@ -32,18 +63,6 @@
   background-position: center;
   background-attachment: fixed;
 }
-.hero .logo {
-  height: 30px;
-}
-.hero h1 {
-  font-size: 70px;
-  text-transform: uppercase;
-  color: var(--color-dark);
-}
-.hero p {
-  font-size: 18px;
-  color: var(--color-grey);
-}
 .hero > .row {
   display: flex;
   flex-direction: column;
@@ -52,32 +71,46 @@
   text-align: center;
 }
 
+.hero .logo {
+  height: 30px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: var(--color-dark);
+}
+
+.hero p {
+  font-size: 18px;
+  color: var(--color-grey);
+}
+
 /* MAIN */
 .left-column,
-.right-column{
+.right-column {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: flex-start;
+  gap: 30px;
 }
-main h2{
+
+main h2 {
+  width: 100%;
   font-size: 20px;
   text-transform: uppercase;
   color: var(--color-dark);
 }
-main p{
+
+main p {
+  width: 100%;
   font-size: 17px;
   line-height: 1.7em;
   color: var(--color-grey);
 }
-main p a{
+main p a {
   color: var(--color-secondary);
   text-decoration: none;
-}
-.progress-bar:nth-of-type(2) > .bottom > .progress{
-  width: 86%;
-}
-footer.container {
-  padding-top: 0;
 }
 
 /* FOOTER */
@@ -92,8 +125,9 @@ footer.container {
   flex-wrap: wrap;
   gap: 10px;
   border-bottom: 1px solid #fff;
+  position: relative;
 }
-.socials > .fa {
+.socials > .social {
   display: inline-block;
   width: 44px;
   height: 44px;
@@ -105,7 +139,26 @@ footer.container {
   text-decoration: none;
   transition: all 0.3s;
 }
-.socials > .fa:hover {
+.socials > .social:hover {
   background-color: var(--color-light);
   color: var(--color-primary);
 }
+
+.back-to-top {
+  position: absolute;
+  top: -26px;
+  right: -12px;
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
