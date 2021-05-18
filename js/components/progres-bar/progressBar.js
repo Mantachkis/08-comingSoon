@@ -11,13 +11,14 @@ function progressBar(selector, data){
                         <div class="value">${progress.value}</div>
                     </div>
                     <div class="bottom">
-                        <div class="progress"></div>
+                        <div class="progress" style="width: ${progress.value}%;"></div>
                     </div>
                 </div>`;
     
     
     //result return
     DOM.insertAdjacentHTML('beforeend', HTML);
+}
 }
 
 export { progressBar }

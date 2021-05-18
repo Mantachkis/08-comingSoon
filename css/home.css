@@ -72,7 +72,9 @@ main p a{
   color: var(--color-secondary);
   text-decoration: none;
 }
-
+.progress-bar:nth-of-type(2) > .bottom > .progress{
+  width: 86%;
+}
 footer.container {
   padding-top: 0;
 }
