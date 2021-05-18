@@ -1,35 +1,4 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
  
-@Mantachkis 
-front-end-by-rimantas
-/
-27-grupe-coming-soon
-1
-03
-Code
-Issues
-4
-Pull requests
-Actions
-Projects
-1
-Wiki
-Security
-Insights
-27-grupe-coming-soon/css/home.css
-@belauzas
-belauzas Bact to top, favicon #11 #14
-Latest commit 70bf0c2 2 hours ago
- History
- 1 contributor
-119 lines (105 sloc)  2.06 KB
-  
 /* basic/initial styles */
 @import './basic/reset.css';
 @import './basic/variables.css';
@@ -149,16 +118,3 @@ footer.container {
   top: -26px;
   right: -12px;
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
