@@ -19,7 +19,7 @@ function progressBar(selector, data) {
                 </div>`;
     }
 
-    // result return
+    // result return   turinio istatymas i html
     DOM.insertAdjacentHTML('afterend', HTML);
 }
 

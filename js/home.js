@@ -7,3 +7,15 @@ import { socialsData } from './data/socialsData.js';
 renderClock('#hero_clock', '04-19 10:00:00');
 socials('#socials_block', socialsData);
 progressBar('.left-column > p', progressBarData);
+
+// kas toks
+// ivykio tipas
+//ka daryt
+
+const lodoDOM = document.querySelector('.logo');
+
+function handleLogoClick(){
+    console.log('buvo paspaustas');
+}
+
+logoDOM.addEventListener('click',  handleLogoClick);
