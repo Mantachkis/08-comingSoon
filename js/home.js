@@ -12,10 +12,40 @@ progressBar('.left-column > p', progressBarData);
 // ivykio tipas
 //ka daryt
 
-const lodoDOM = document.querySelector('.logo');
+const logoDOM = document.querySelector('.logo');
 
 function handleLogoClick(){
     console.log('buvo paspaustas');
 }
 
 logoDOM.addEventListener('click',  handleLogoClick);
+let count = 0;
+
+
+const btnDOM=document.querySelector('.btn')
+function countVisits(){
+    count++;
+   btnDOM.innerText = `click me (${count})`;
+}
+btnDOM.addEventListener('click', countVisits )
+
+
+//scroll  socials
+const socialsDOM=ducument.querySelector('.socials');
+console.log([socialsDOM]);// html to array kad pamatyt reikiama info
+const socialsHeight=socialsDOM.offsetHeight
+const socialsTop=socialsDOM.offsetTop;
+const windowTop=0;
+const  windowHeight=0;
+
+addEventListener('scroll', ()=>{
+    if(socialsTop + socialsHeight <= scrollY +  innerHeight){
+
+    }
+    else{
+
+    }
+
+}) 
+
+//scroll progresbar
